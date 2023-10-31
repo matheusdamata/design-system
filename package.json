@@ -1,5 +1,5 @@
 {
-  "private":true,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -8,6 +8,9 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "turbo":"^1.10.12"  
+    "turbo": "^1.10.12"
+  },
+  "dependencies": {
+    "phosphor-react": "^1.4.1"
   }
 }
